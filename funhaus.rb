@@ -45,8 +45,6 @@ class Funhaus
   end
 
   def download_file(link, destination)
-    puts link
-
     File.write(destination, open(link).read)
   end
 
